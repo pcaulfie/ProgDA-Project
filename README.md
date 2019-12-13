@@ -18,7 +18,7 @@ collect at least one-hundred data points across at least four different variable
 
 ## Installation
 
-- I recommend that you install the [Anaconda](https://www.anaconda.com/distribution/) distribution of python which contains all the libraries used, as well an instance of Jupyter notebook.
+- I recommend that you install the [Anaconda](https://www.anaconda.com/distribution/) distribution of python which contains all the libraries used, as well as an instance of Jupyter notebook.
 
 ### Clone
 
