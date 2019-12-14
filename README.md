@@ -1,20 +1,38 @@
-# ProgDA-Project
-Project 2019 for Programming for Data Analysis
+# Simulating A Dataset
 
-## About ProgDA-Project
-This repository contains my submission for Project 2019 for Programming for Data Analysis course. 
-The purpose of this project is to synthesise/simulate a data set using the Python package which closely match's the properties of a real world phenomenon of my choosing.
+## Project 2019 - Programming for Data Analysis
 
-I have created a [Jupyter notebook](http://https://github.com/pcaulfie/ProgDA-Project/blob/master/ProgDA-Project.ipynb) to documenting my investigation and simulation of the phenomenon.
+## Introduction
+The objective of this project is to simulate a dataset. I decided to model my dataset on a real life scenario taken from the IT Industry. I chose to create a dataset of Installed Base data, which I hope to use at a later stage, to develop and test Machine Learning algorithms such as linear regression and classification. 
 
-## Problem statement
-There are four distinct tasks carried out in my Jupyter notebook.
-1. Choose a real-world phenomenon that can be measured and for which you could
-collect at least one-hundred data points across at least four different variables.
-2. Investigate the types of variables involved, their likely distributions, and their relationships with each other.
-3. Synthesise/simulate a data set as closely matching their properties as possible using the Python numpy.random package
-4. Detail your research and implement the simulation in a Jupyter notebook – the data set itself can simply be displayed in an output cell within the notebook.
+I have created a [Jupyter notebook](https://github.com/pcaulfie/ProgDA-Project/blob/master/Install%20Base%20Dataset.ipynb) to detail my work.
 
+
+## Install Base Dataset
+
+According to Kurvinen (2017), the typical data on install base includes a listing of products which are installed at a given customer site. Futhermore, it can include additional variables such as serial numbers, hardware and software revisions, warranty and service contracts. 
+
+Installed base data can be used by many departments in an organisation, from field service engineers, sales, spare parts planners, quality etc . The dataset helps to answer questions such as:
+
+* What is the current configuration of the product to be serviced?
+* Where is the faulty product physically located and where is the part to be replaced located?
+* Is the unit covered under warranty or service contract?
+* When was the unit installed, upgraded and/or last serviced?
+
+![Install Base Image](https://cdn.myonlinestore.eu/945f2dab-6be1-11e9-a722-44a8421b9960/images/World%20map%20installed%20base.png)
+
+The dataset contains 200 rows and 8 columns.
+
+The 8 columns contain the following fields:
+
+Part Number: 5 Digit identifier for each product installed.
+Serial Numbers: Unique ID's for each unit sold.
+Install Date: The start-up / installation date recorded by the field service engineer. The date range is: January 2017 to December 2019 (36 months)
+Factory Warranty Expiration Date: Factory Warranty expires 3 year after installation date.
+Extended Warranty: Number of years of extended warranty cover purchased.
+Customer ID Number: 5 Digit identifier for each customer.
+Country: ISO 2 Digit Country Code, identifying the country where the product is installed.
+Service Contract: Record of whether the customer has taken out a service contract on the hardware.
 
 ## Installation
 
